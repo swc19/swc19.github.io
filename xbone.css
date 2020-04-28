@@ -36,11 +36,10 @@
 .custom .trigger.left{
     float: left;
     background-position:0 0;
-    display:none;
 }
 .custom .trigger.right{
-    float: left;
-    vertical-align: top;
+    float: right;
+    background-position:0 0;
 }
 .custom .bumper{
     width: 170px;
@@ -160,7 +159,7 @@
     position: absolute;
     width: 137px;
     height: 139px;
-    top: 239px;
+    top: 260px;
     left: 224px;
     background: url(http://mrmcpowned.com/gamepad/xbox-assets/base.svgz);*/;
     background-position: -117px -214px;
