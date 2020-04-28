@@ -157,7 +157,6 @@
     top: 5px;
 }
 .custom .sticks{
-    display: none;
     position: absolute;
     width: 137px;
     height: 139px;
@@ -188,6 +187,7 @@
     display: none;
 }
 .custom .dpad{
+    display:none;
     position: absolute;
     width: 110px;
     height: 111px;
