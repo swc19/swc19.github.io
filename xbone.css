@@ -22,7 +22,7 @@
     left: 41px;
     top: 355px;
     background: url(http://i.imgur.com/GaV5RBy.png);
-    transform: rotate(90deg);
+    /*transform: rotate(90deg);*/
     /* background-position: -152px 0px; */
     -webkit-clip-path: 50%;
 }
