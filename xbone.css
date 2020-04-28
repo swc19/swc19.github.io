@@ -19,10 +19,10 @@
     width: 300px;
     height: 75px;
     position: absolute;
-    left: 245px;
+    left: 235px;
     top: 150px;
     background: url(http://i.imgur.com/GaV5RBy.png);
-    /*transform: rotate(90deg);*/
+    transform: rotate(90deg);
     background-position: 0px 0px;
     -webkit-clip-path: 50%;
 }
@@ -30,7 +30,7 @@
     width: 88px;
     height: 75px;
     background: url(http://mrmcpowned.com/gamepad/xbox-assets/trigger.svgz);
-    opacity: 1;
+    opacity: 0;
 }
 .custom .trigger.left{
     float: left;
@@ -157,7 +157,7 @@
     position: absolute;
     width: 137px;
     height: 139px;
-    top: 260px;
+    top: 250px;
     left: 224px;
     background: url(http://mrmcpowned.com/gamepad/xbox-assets/base.svgz);*/;
     background-position: -117px -214px;
