@@ -16,7 +16,7 @@
     display: none;
 }
 .custom .triggers{
-    width: 300px;
+    width: 520px;
     height: 75px;
     position: absolute;
     left: 235px;
@@ -38,7 +38,7 @@
 }
 .custom .trigger.right{
     -webkit-transform: scaleX(-1);
-    float: left;
+    float: right;
     vertical-align: top;
 }
 .custom .bumper{
