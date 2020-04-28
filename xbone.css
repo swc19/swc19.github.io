@@ -22,8 +22,8 @@
     left: 235px;
     top: 150px;
     background: url(http://i.imgur.com/GaV5RBy.png);
-    transform: rotate(90deg);
-    background-position: 0px 0px;
+    /*transform: rotate(90deg);*/
+    /*background-position: 0px 0px;*/
     -webkit-clip-path: 50%;
 }
 .custom .trigger{
@@ -33,11 +33,13 @@
     opacity: 0;
 }
 .custom .trigger.left{
+    background-position:0 0;
     float: left;
 }
 .custom .trigger.right{
     -webkit-transform: scaleX(-1);
     float: right;
+    vertical-align: top;
 }
 .custom .bumper{
     width: 170px;
