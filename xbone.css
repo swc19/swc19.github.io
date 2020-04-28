@@ -19,11 +19,11 @@
     width: 300px;
     height: 75px;
     position: absolute;
-    left: 230px;
-    top: 100px;
+    left: 245px;
+    top: 150px;
     background: url(http://i.imgur.com/GaV5RBy.png);
     /*transform: rotate(90deg);*/
-    /* background-position: -152px 0px; */
+    background-position: 0px 0px;
     -webkit-clip-path: 50%;
 }
 .custom .trigger{
