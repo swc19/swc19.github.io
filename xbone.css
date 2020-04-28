@@ -17,10 +17,10 @@
 }
 .custom .triggers{
     width: 300px;
-    height: 121px;
+    height: 75px;
     position: absolute;
-    left: 201px;
-    top: 80px;
+    left: 230px;
+    top: 100px;
     background: url(http://i.imgur.com/GaV5RBy.png);
     /*transform: rotate(90deg);*/
     /* background-position: -152px 0px; */
@@ -28,10 +28,9 @@
 }
 .custom .trigger{
     width: 88px;
-    height: 121px;
+    height: 75px;
     background: url(http://mrmcpowned.com/gamepad/xbox-assets/trigger.svgz);
-    
-    opacity: 0;
+    opacity: 1;
 }
 .custom .trigger.left{
     float: left;
