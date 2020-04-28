@@ -38,7 +38,7 @@
 }
 .custom .trigger.right{
     -webkit-transform: scaleX(-1);
-    float: right;
+    float: left;
     vertical-align: top;
 }
 .custom .bumper{
