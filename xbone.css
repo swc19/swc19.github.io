@@ -38,6 +38,7 @@
 .custom .trigger.right{
     -webkit-transform: scaleX(-1);
     float: right;
+    right: 100px;
     vertical-align: top;
 }
 .custom .bumper{
@@ -189,7 +190,6 @@
     height: 111px;
     top: 345px;
     left: 223px;
-    display: none;
 }
 .custom .face{
     background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/dpad.svg);
