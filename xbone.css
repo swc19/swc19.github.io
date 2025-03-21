@@ -1,13 +1,12 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.custom{
-    /* background: url(http://mrmcpowned.com/gamepad/xbox-assets/base.svgz); */
     height: 630px;
     width: 750px;
     margin-left: -375px;
     margin-top: -285px;
 }
 .custom.white{
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/base-white.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/base-white.svg);
 }
 .custom.disconnected {
     
@@ -21,7 +20,7 @@
     position: absolute;
     left: 235px;
     top: 150px;
-    background: url(http://i.imgur.com/GaV5RBy.png);
+    background: url(https://vrillusions.github.io/gamepadviewer-css-xboxmini/images/trigger-bg.png);
     /*transform: rotate(90deg);*/
     /*background-position: 0px 0px;*/
     -webkit-clip-path: 50%;
@@ -29,7 +28,7 @@
 .custom .trigger{
     width: 88px;
     height: 75px;
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/trigger.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/trigger.svg);
     opacity: 0;
 }
 .custom .trigger.left{
@@ -44,7 +43,7 @@
 .custom .bumper{
     width: 170px;
     height: 61px;
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/bumper.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/bumper.svg);
     opacity: 0;
 }
 .custom .bumpers{
@@ -68,7 +67,6 @@
 }
 .custom .quadrant{
     position: absolute;
-    /* background: url(http://mrmcpowned.com/gamepad/xbox-assets/quadrant.svgz); */
     height: 45px;
     width: 45px;
     top: 258px;
@@ -100,7 +98,7 @@
     
 }
 .custom .back, .custom .start{
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/start-select.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/start-select.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -126,7 +124,7 @@
 }
 .custom .button{
     position: absolute;
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/abxy.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/abxy.svg);
     width: 48px;
     height: 48px;
 }
@@ -161,14 +159,14 @@
     height: 139px;
     top: 250px;
     left: 224px;
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/base.svgz);*/;
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/base.svg);
     background-position: -117px -214px;
     -webkit-clip-path: circle(50% at center);
     clip-path: circle(50% at center);
 }
 .custom .stick{
     position: absolute;
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/stick.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/stick.svg);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -186,19 +184,15 @@
     display: none;
 }
 .custom .dpad{
-    display:none;
     position: absolute;
     width: 110px;
     height: 111px;
-    top: 260px;
-    left: 250px;
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/base.svgz);*/;
-    background-position: -224px -344px;
-    -webkit-clip-path: circle(50% at center);
-    clip-path: circle(50% at center);
+    top: 345px;
+    left: 223px;
+    display: none;
 }
 .custom .face{
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/dpad.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/dpad.svg);
     position: absolute;
     opacity: 0;
     
